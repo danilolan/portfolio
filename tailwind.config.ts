@@ -9,14 +9,14 @@ const config: Config = {
   theme: {
     colors: {
       transparent: 'transparent',
-      dark: "#0C0C0C",
+      black: "#0C0C0C",
       grey: "#2B2B2B",
       white: "#BDBDBD"
 
     },
     extend: {
       backgroundImage: {
-        'default': 'url(public/static/images/background.webp'
+        'default': 'url(/images/background.png)'
       }
     },
   },
