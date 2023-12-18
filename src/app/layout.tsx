@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import Rotated from '@/components/Rotated'
+import LanguageSelector from '@/components/LanguageSelector'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -13,11 +15,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='bg-black w-screen h-screen flex items-center justify-center p-10'>
+      <body className='relative bg-black w-screen h-screen flex items-center justify-center p-10'>
+        <div className='absolute text-white h-screen left-0 w-10 py-10 flex flex-col'>
+          <LanguageSelector/>
+          <Rotated className='flex items-center mt-auto text-sm'>© / 2023</Rotated>
+        </div>
         <main className='border border-white w-full h-full bg-default bg-contain'>
           {children}
         </main>
-        </body>
+      </body>
     </html>
   )
 }
