@@ -17,12 +17,12 @@ export default function BigButton({
 }: Props) {
   let buttonClasses = cc([
     className || "",
-    "p-4 text-white hover:[&>*:nth-child(1)]:italic hover:[&>*:nth-child(1)]:translate-x-5",
+    "text-white hover:[&>*:nth-child(1)]:italic hover:[&>*:nth-child(1)]:translate-x-5",
   ]);
 
   let mainClasses = cc([
     mainClassName || "",
-    "transition text-5xl md:text-7xl text-start py-2",
+    "transition text-5xl md:text-7xl 2xl:text-9xl text-start",
   ]);
 
   let subtitleClasses = cc([
