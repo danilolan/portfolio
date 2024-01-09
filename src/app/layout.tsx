@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="relative bg-black w-screen h-screen flex items-center justify-center p-10">
         <div className="absolute text-white h-screen left-0 w-10 py-10 flex flex-col">
-          <LanguageSelector />
+          {/* <LanguageSelector /> */}
           <Rotated className="flex items-center mt-auto text-sm">
             © / 2023
           </Rotated>
