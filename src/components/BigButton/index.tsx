@@ -1,4 +1,5 @@
-import { cc } from "@/app/utils/cc"
+import { cc } from "@/utils/cc"
+
 
 interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode,
