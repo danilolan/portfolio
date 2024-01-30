@@ -1,65 +1,67 @@
 {
-  "work": [
-    {
-      "company": "Move Your digital",
-      "role": "Desenvolvedor Fullstack",
-      "date": {
-        "start": "2022-12-15T00:00:00.000Z",
-        "end": "present"
+  "work": {
+    "jobs": [
+      {
+        "company": "Move Your digital",
+        "role": "Desenvolvedor Fullstack",
+        "date": {
+          "start": "2022-12-15T00:00:00.000Z",
+          "end": "present"
+        },
+        "locale": "Lisboa - Portugal",
+        "type": "Remoto",
+        "description": [
+          "Desenvolveu uma aplicação usando NextJs e Prisma para otimizar a manutenção de artefatos de museus. Essa digitalização otimizou o processo de entrega do cliente, aumentando a receita e reduzindo custos.",
+          "Co-criou uma extensão usando React e webhooks que identifica termos-chave em páginas e exibe seus significados, potencializando o engajamento e a retenção de usuários nos sites dos clientes.",
+          "Teve um papel crucial no aprimoramento de uma plataforma para artistas e fotógrafos usando NextJs, Prisma e Stripe. As melhorias atraíram mais criadores de conteúdo, resultando em maior tráfego e transações.",
+          "Participou de diversos projetos, alinhando-se às necessidades dos clientes, reduzindo efetivamente custos, aumentando receitas e enfrentando desafios através de soluções tecnológicas personalizadas."
+        ]
       },
-      "locale": "Lisboa - Portugal",
-      "type": "Remoto",
-      "description": [
-        "Desenvolveu uma aplicação usando NextJs e Prisma para otimizar a manutenção de artefatos de museus. Essa digitalização otimizou o processo de entrega do cliente, aumentando a receita e reduzindo custos.",
-        "Co-criou uma extensão usando React e webhooks que identifica termos-chave em páginas e exibe seus significados, potencializando o engajamento e a retenção de usuários nos sites dos clientes.",
-        "Teve um papel crucial no aprimoramento de uma plataforma para artistas e fotógrafos usando NextJs, Prisma e Stripe. As melhorias atraíram mais criadores de conteúdo, resultando em maior tráfego e transações.",
-        "Participou de diversos projetos, alinhando-se às necessidades dos clientes, reduzindo efetivamente custos, aumentando receitas e enfrentando desafios através de soluções tecnológicas personalizadas."
-      ]
-    },
-    {
-      "company": "UAUBox",
-      "role": "Desenvolvedor Frontend",
-      "date": {
-        "start": "2022-02-15T00:00:00.000Z",
-        "end": "2023-01-15T00:00:00.000Z"
+      {
+        "company": "UAUBox",
+        "role": "Desenvolvedor Frontend",
+        "date": {
+          "start": "2022-02-15T00:00:00.000Z",
+          "end": "2023-01-15T00:00:00.000Z"
+        },
+        "locale": "Jundiaí - São Paulo",
+        "type": "Remoto",
+        "description": [
+          "A UAUBox utilizou IA para entregar produtos estéticos personalizados aos clientes mensalmente.",
+          "Redesenhou sozinho toda a Landing Page e seção do cliente usando NextJs, integrado ao CMS Prismic, permitindo que diferentes departamentos da empresa atualizassem elementos da página. Implementou revalidação automática via CI/CD para atualizações de conteúdo.",
+          "Essa transição aliviou as equipes de tecnologia de ajustes menores, permitindo um foco melhor em manutenção e novos projetos. Melhorou o tempo de carregamento da página em 40 por cento, aumentando a retenção de usuários no site."
+        ]
       },
-      "locale": "Jundiaí - São Paulo",
-      "type": "Remoto",
-      "description": [
-        "A UAUBox utilizou IA para entregar produtos estéticos personalizados aos clientes mensalmente.",
-        "Redesenhou sozinho toda a Landing Page e seção do cliente usando NextJs, integrado ao CMS Prismic, permitindo que diferentes departamentos da empresa atualizassem elementos da página. Implementou revalidação automática via CI/CD para atualizações de conteúdo.",
-        "Essa transição aliviou as equipes de tecnologia de ajustes menores, permitindo um foco melhor em manutenção e novos projetos. Melhorou o tempo de carregamento da página em 40 por cento, aumentando a retenção de usuários no site."
-      ]
-    },
-    {
-      "company": "Chronos Tecnologia",
-      "role": "Desenvolvedor Frontend e Mobile",
-      "date": {
-        "start": "2021-11-15T00:00:00.000Z",
-        "end": "2022-03-15T00:00:00.000Z"
+      {
+        "company": "Chronos Tecnologia",
+        "role": "Desenvolvedor Frontend e Mobile",
+        "date": {
+          "start": "2021-11-15T00:00:00.000Z",
+          "end": "2022-03-15T00:00:00.000Z"
+        },
+        "locale": "Campina Grande - Paraíba",
+        "type": "Presencial",
+        "description": [
+          "Participou ativamente do desenvolvimento de diversas soluções de software e aplicações para clientes e empresas.",
+          "Utilizou tecnologias modernas como React e React Native para desenvolver novos projetos e migrar antigos para páginas robustas, rápidas e de fácil manutenção.",
+          "Essas transformações elevaram o valor do produto final, melhorando a plataforma do cliente enquanto reduzia custos e impulsionava a receita da empresa."
+        ]
       },
-      "locale": "Campina Grande - Paraíba",
-      "type": "Presencial",
-      "description": [
-        "Participou ativamente do desenvolvimento de diversas soluções de software e aplicações para clientes e empresas.",
-        "Utilizou tecnologias modernas como React e React Native para desenvolver novos projetos e migrar antigos para páginas robustas, rápidas e de fácil manutenção.",
-        "Essas transformações elevaram o valor do produto final, melhorando a plataforma do cliente enquanto reduzia custos e impulsionava a receita da empresa."
-      ]
-    },
-    {
-      "company": "RAS, Sociedade de Robótica e Automação",
-      "role": "Engenheiro de Software",
-      "date": {
-        "start": "2019-05-15T00:00:00.000Z",
-        "end": "2020-01-15T00:00:00.000Z"
-      },
-      "locale": "Campina Grande - Paraíba",
-      "type": "Presencial",
-      "description": [
-        "Desenvolveu software para robôs de diversas categorias, solucionando desafios físicos através da lógica computacional.",
-        "Teve um papel ativo no desenvolvimento do 'Line Follower' (Seguidor de Linha). Utilizou C++ nos controladores e técnicas algébricas, melhorando significativamente o desempenho e usabilidade dos robôs.",
-        "Graças a essas melhorias, participou do Torneio de Robótica Juvenil, conquistando a segunda colocação e se classificando para a etapa nacional."
-      ]
-    }
-  ]
+      {
+        "company": "RAS",
+        "role": "Engenheiro de Software",
+        "date": {
+          "start": "2019-05-15T00:00:00.000Z",
+          "end": "2020-01-15T00:00:00.000Z"
+        },
+        "locale": "Campina Grande - Paraíba",
+        "type": "Presencial",
+        "description": [
+          "Desenvolveu software para robôs de diversas categorias, solucionando desafios físicos através da lógica computacional.",
+          "Teve um papel ativo no desenvolvimento do 'Line Follower' (Seguidor de Linha). Utilizou C++ nos controladores e técnicas algébricas, melhorando significativamente o desempenho e usabilidade dos robôs.",
+          "Graças a essas melhorias, participou do Torneio de Robótica Juvenil, conquistando a segunda colocação e se classificando para a etapa nacional."
+        ]
+      }
+    ]
+  }
 }

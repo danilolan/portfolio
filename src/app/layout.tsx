@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { IBM_Plex_Mono } from "next/font/google";
 
-import Rotated from "@/components/Rotated";
-import LanguageSelector from "@/components/LanguageSelector";
+import Rotated from "@/components/atoms/Rotated";
+import LanguageSelector from "@/components/molecules/LanguageSelector";
 
 export const metadata: Metadata = {
   title: "Create Next App",

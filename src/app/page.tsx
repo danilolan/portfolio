@@ -1,10 +1,11 @@
-import BigButton from "@/components/BigButton";
-import Text from "@/components/Text";
+import BigButton from "@/components/atoms/BigButton";
+import Text from "@/components/atoms/Text";
+import SplitScreen from "@/components/molecules/SplitScreen";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-none p-16 h-full">
+    <SplitScreen>
       <div className="flex flex-col">
         <Text className="md:mt-auto tracking-widest" size="large">
           DANILO HERC
@@ -22,18 +23,18 @@ export default function Home() {
       </div>
       <div className="flex flex-col md:ml-auto h-full justify-between">
         <Link href="/work">
-          <BigButton>Work</BigButton>
+          <BigButton size="large">Work</BigButton>
         </Link>
         <Link href="/projects">
-          <BigButton>Projects</BigButton>
+          <BigButton size="large">Projects</BigButton>
         </Link>
         <Link href="/about">
-          <BigButton>About</BigButton>
+          <BigButton size="large">About</BigButton>
         </Link>
         <Link href="/contact">
-          <BigButton>Contact</BigButton>
+          <BigButton size="large">Contact</BigButton>
         </Link>
       </div>
-    </div>
+    </SplitScreen>
   );
 }

@@ -1,65 +1,67 @@
 {
-  "work": [
-    {
-      "company": "Move Your Digital",
-      "role": "Fullstack Developer",
-      "date": {
-        "start": "2022-12-15T00:00:00.000Z",
-        "end": "present"
+  "work": {
+    "jobs": [
+      {
+        "company": "Move Your Digital",
+        "role": "Fullstack Developer",
+        "date": {
+          "start": "2022-12-15T00:00:00.000Z",
+          "end": "present"
+        },
+        "locale": "Lisbon - Portugal",
+        "type": "Remote",
+        "description": [
+          "Developed an application using NextJs and Prisma to optimize the maintenance of museum artifacts. This digitization optimized the client's delivery process, increasing revenue and reducing costs.",
+          "Co-created an extension using React and webhooks that identifies key terms on pages and displays their meanings, enhancing user engagement and retention on client sites.",
+          "Played a crucial role in the enhancement of a platform for artists and photographers using NextJs, Prisma, and Stripe. The improvements attracted more content creators, resulting in increased traffic and transactions.",
+          "Participated in various projects, aligning with client needs, effectively reducing costs, increasing revenue, and tackling challenges through customized technological solutions."
+        ]
       },
-      "locale": "Lisbon - Portugal",
-      "type": "Remote",
-      "description": [
-        "Developed an application using NextJs and Prisma to optimize the maintenance of museum artifacts. This digitization optimized the client's delivery process, increasing revenue and reducing costs.",
-        "Co-created an extension using React and webhooks that identifies key terms on pages and displays their meanings, enhancing user engagement and retention on client sites.",
-        "Played a crucial role in the enhancement of a platform for artists and photographers using NextJs, Prisma, and Stripe. The improvements attracted more content creators, resulting in increased traffic and transactions.",
-        "Participated in various projects, aligning with client needs, effectively reducing costs, increasing revenue, and tackling challenges through customized technological solutions."
-      ]
-    },
-    {
-      "company": "UAUBox",
-      "role": "Frontend Developer",
-      "date": {
-        "start": "2022-02-15T00:00:00.000Z",
-        "end": "2023-01-15T00:00:00.000Z"
+      {
+        "company": "UAUBox",
+        "role": "Frontend Developer",
+        "date": {
+          "start": "2022-02-15T00:00:00.000Z",
+          "end": "2023-01-15T00:00:00.000Z"
+        },
+        "locale": "Jundiaí - São Paulo",
+        "type": "Remote",
+        "description": [
+          "UAUBox used AI to deliver personalized aesthetic products to clients monthly.",
+          "Redesigned the entire Landing Page and client section by himself using NextJs, integrated with the CMS Prismic, allowing different departments of the company to update page elements. Implemented automatic revalidation via CI/CD for content updates.",
+          "This transition relieved the technology teams from minor adjustments, allowing better focus on maintenance and new projects. Improved page loading time by 40 percent, increasing user retention on the site."
+        ]
       },
-      "locale": "Jundiaí - São Paulo",
-      "type": "Remote",
-      "description": [
-        "UAUBox used AI to deliver personalized aesthetic products to clients monthly.",
-        "Redesigned the entire Landing Page and client section by himself using NextJs, integrated with the CMS Prismic, allowing different departments of the company to update page elements. Implemented automatic revalidation via CI/CD for content updates.",
-        "This transition relieved the technology teams from minor adjustments, allowing better focus on maintenance and new projects. Improved page loading time by 40 percent, increasing user retention on the site."
-      ]
-    },
-    {
-      "company": "Chronos Technology",
-      "role": "Frontend and Mobile Developer",
-      "date": {
-        "start": "2021-11-15T00:00:00.000Z",
-        "end": "2022-03-15T00:00:00.000Z"
+      {
+        "company": "Chronos Technology",
+        "role": "Frontend and Mobile Developer",
+        "date": {
+          "start": "2021-11-15T00:00:00.000Z",
+          "end": "2022-03-15T00:00:00.000Z"
+        },
+        "locale": "Campina Grande - Paraíba",
+        "type": "On-site",
+        "description": [
+          "Actively participated in the development of various software solutions and applications for clients and companies.",
+          "Used modern technologies like React and React Native to develop new projects and migrate old ones to robust, fast, and easy-to-maintain pages.",
+          "These transformations raised the final product's value, improving the client's platform while reducing costs and boosting the company's revenue."
+        ]
       },
-      "locale": "Campina Grande - Paraíba",
-      "type": "On-site",
-      "description": [
-        "Actively participated in the development of various software solutions and applications for clients and companies.",
-        "Used modern technologies like React and React Native to develop new projects and migrate old ones to robust, fast, and easy-to-maintain pages.",
-        "These transformations raised the final product's value, improving the client's platform while reducing costs and boosting the company's revenue."
-      ]
-    },
-    {
-      "company": "RAS, Society of Robotics and Automation",
-      "role": "Software Engineer",
-      "date": {
-        "start": "2019-05-15T00:00:00.000Z",
-        "end": "2020-01-15T00:00:00.000Z"
-      },
-      "locale": "Campina Grande - Paraíba",
-      "type": "On-site",
-      "description": [
-        "Developed software for robots of various categories, solving physical challenges through computational logic.",
-        "Played an active role in the development of the 'Line Follower'. Used C++ in the controllers and algebraic techniques, significantly improving the performance and usability of the robots.",
-        "Thanks to these improvements, participated in the Youth Robotics Tournament, achieving second place and qualifying for the national stage."
-      ]
-    }
-  ]
+      {
+        "company": "RAS",
+        "role": "Software Engineer",
+        "date": {
+          "start": "2019-05-15T00:00:00.000Z",
+          "end": "2020-01-15T00:00:00.000Z"
+        },
+        "locale": "Campina Grande - Paraíba",
+        "type": "On-site",
+        "description": [
+          "Developed software for robots of various categories, solving physical challenges through computational logic.",
+          "Played an active role in the development of the 'Line Follower'. Used C++ in the controllers and algebraic techniques, significantly improving the performance and usability of the robots.",
+          "Thanks to these improvements, participated in the Youth Robotics Tournament, achieving second place and qualifying for the national stage."
+        ]
+      }
+    ]
+  }
 }

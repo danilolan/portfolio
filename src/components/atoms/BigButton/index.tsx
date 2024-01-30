@@ -5,6 +5,7 @@ interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   mainClassName?: string;
   subtitle?: React.ReactNode;
   subtitleClassName?: string;
+  size?: "small" | "medium" | "large";
 }
 
 export default function BigButton({
@@ -13,6 +14,7 @@ export default function BigButton({
   subtitleClassName,
   mainClassName,
   className,
+  size = "medium",
   ...props
 }: Props) {
   let buttonClasses = cc([
@@ -22,12 +24,18 @@ export default function BigButton({
 
   let mainClasses = cc([
     mainClassName || "",
-    "transition text-5xl md:text-7xl 2xl:text-9xl text-start",
+    "transition",
+    size === "small" ? "text-xl md:text-3xl 2xl:text-5xl" : "",
+    size === "medium" ? "text-3xl md:text-5xl 2xl:text-7xl" : "",
+    size === "large" ? "text-5xl md:text-7xl 2xl:text-9xl" : "",
   ]);
 
   let subtitleClasses = cc([
+    "mt-2 font-light",
     subtitleClassName || "",
-    "mt-2 text-sm md:text-base text-start font-light",
+    size === "small" ? "text-[12px] md:text-sm" : "",
+    size === "medium" ? "text-sm md:text-base" : "",
+    size === "large" ? "text-md md:text-xl mt-6" : "",
   ]);
 
   return (

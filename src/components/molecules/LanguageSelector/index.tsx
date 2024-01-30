@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import Checkbox from "../Checkbox";
-import Rotated from "../Rotated";
+import Checkbox from "../../atoms/Checkbox";
+import Rotated from "../../atoms/Rotated";
 
 export default function LanguageSelector() {
   const [value, setValue] = useState("en");
