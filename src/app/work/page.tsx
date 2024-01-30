@@ -13,7 +13,15 @@ export default async function Work(){
         {
           work.jobs.map( (job: any) => (
             <Link href={job.company}>
-              <BigButton size="medium" subtitle={job.role} mainClassName="md:text-left text-center" subtitleClassName="md:text-left text-center">{job.company}</BigButton>
+              <BigButton 
+                size="medium" 
+                subtitle={job.role} 
+                mainClassName="md:text-left text-center" 
+                subtitleClassName="md:text-left text-center"
+                flag={job.isCurrent ? "CURRENT" : undefined}
+              >
+                  {job.company}
+              </BigButton>
             </Link>
           ))
         }

@@ -5,12 +5,14 @@ interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   mainClassName?: string;
   subtitle?: React.ReactNode;
   subtitleClassName?: string;
+  flag?: string;
   size?: "small" | "medium" | "large";
 }
 
 export default function BigButton({
   children,
   subtitle,
+  flag,
   subtitleClassName,
   mainClassName,
   className,
@@ -31,17 +33,20 @@ export default function BigButton({
   ]);
 
   let subtitleClasses = cc([
-    "mt-2 font-light",
+    "font-light",
     subtitleClassName || "",
     size === "small" ? "text-[12px] md:text-sm" : "",
     size === "medium" ? "text-sm md:text-base" : "",
-    size === "large" ? "text-md md:text-xl mt-6" : "",
+    size === "large" ? "text-md md:text-xl" : "",
   ]);
 
   return (
     <button className={buttonClasses} {...props}>
       <div className={mainClasses}>{children}</div>
-      {subtitle && <div className={subtitleClasses}>{subtitle}</div>}
+      <div className="flex items-center gap-4 mt-4">
+        {subtitle && <div className={subtitleClasses}>{subtitle}</div>}
+        <span className="bg-white rounded-full px-4 text-black">{flag}</span>
+      </div>
     </button>
   );
 }

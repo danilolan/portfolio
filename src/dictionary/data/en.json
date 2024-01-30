@@ -8,6 +8,7 @@
           "start": "2022-12-15T00:00:00.000Z",
           "end": "present"
         },
+        "isCurrent": true,
         "locale": "Lisbon - Portugal",
         "type": "Remote",
         "description": [
@@ -24,6 +25,7 @@
           "start": "2022-02-15T00:00:00.000Z",
           "end": "2023-01-15T00:00:00.000Z"
         },
+        "isCurrent": false,
         "locale": "Jundiaí - São Paulo",
         "type": "Remote",
         "description": [
@@ -39,6 +41,7 @@
           "start": "2021-11-15T00:00:00.000Z",
           "end": "2022-03-15T00:00:00.000Z"
         },
+        "isCurrent": false,
         "locale": "Campina Grande - Paraíba",
         "type": "On-site",
         "description": [
@@ -54,6 +57,7 @@
           "start": "2019-05-15T00:00:00.000Z",
           "end": "2020-01-15T00:00:00.000Z"
         },
+        "isCurrent": false,
         "locale": "Campina Grande - Paraíba",
         "type": "On-site",
         "description": [
