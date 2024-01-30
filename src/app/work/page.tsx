@@ -8,7 +8,7 @@ import Link from "next/link"
 export default async function Work(){
   const { work } = await getDictionary("pt")
   return((
-    <SplitScreen>
+    <SplitScreen reverse>
       <div className="flex flex-col md:mr-auto h-full justify-between md:text-left text-center gap-2">
         {
           work.jobs.map( (job: any) => (
