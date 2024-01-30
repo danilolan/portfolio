@@ -2,6 +2,7 @@ import BigButton from "@/components/atoms/BigButton"
 import Text from "@/components/atoms/Text"
 import SplitScreen from "@/components/molecules/SplitScreen"
 import getDictionary from "@/dictionary"
+import { nameToPath } from "@/utils/str"
 import Link from "next/link"
 
 
@@ -12,7 +13,7 @@ export default async function Work(){
       <div className="flex flex-col md:mr-auto h-full justify-between md:text-left text-center gap-2">
         {
           work.jobs.map( (job: any) => (
-            <Link href={job.company}>
+            <Link href={nameToPath(job.company)}>
               <BigButton 
                 size="medium" 
                 subtitle={job.role} 
