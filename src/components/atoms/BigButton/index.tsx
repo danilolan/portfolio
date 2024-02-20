@@ -33,7 +33,7 @@ export default function BigButton({
   ]);
 
   let subtitleClasses = cc([
-    "font-light",
+    "font-light text-center",
     subtitleClassName || "",
     size === "small" ? "text-[12px] md:text-sm" : "",
     size === "medium" ? "text-sm md:text-base" : "",
@@ -43,9 +43,11 @@ export default function BigButton({
   return (
     <button className={buttonClasses} {...props}>
       <div className={mainClasses}>{children}</div>
-      <div className="flex items-center gap-4 mt-4">
+      <div className="flex items-center justify-center gap-4 mt-4">
         {subtitle && <div className={subtitleClasses}>{subtitle}</div>}
-        <span className="bg-white rounded-full px-4 text-black">{flag}</span>
+        {flag && (
+          <span className="bg-white rounded-full px-4 text-black">{flag}</span>
+        )}
       </div>
     </button>
   );

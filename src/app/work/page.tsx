@@ -28,13 +28,13 @@ export default async function Work(){
         }
       </div>
       <div className="flex flex-col mt-12">
-        <Text className="md:mt-auto tracking-widest" size="medium">
+        <Text className="md:mt-auto tracking-widest" size="large">
           Work
         </Text>
-        <Text weight="light" className="mt-6" size="small">
+        <Text weight="light" className="mt-6" size="medium">
           These are the places I worked using React, NextJs, Nest, Prisma and other technologies
         </Text>
-        <Text weight="light" className="mt-4" size="small">
+        <Text weight="light" className="mt-4" size="medium">
           The world of IT is constantly evolving and so has my role over the last 3 years. I keep studying and acquiring new knowledge.
         </Text>
       </div>
