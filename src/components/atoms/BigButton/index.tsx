@@ -43,7 +43,7 @@ export default function BigButton({
   return (
     <button className={buttonClasses} {...props}>
       <div className={mainClasses}>{children}</div>
-      <div className="flex items-center justify-center gap-4 mt-4">
+      <div className="flex items-center justify-center md:justify-start gap-4 mt-4">
         {subtitle && <div className={subtitleClasses}>{subtitle}</div>}
         {flag && (
           <span className="bg-white rounded-full px-4 text-black">{flag}</span>
