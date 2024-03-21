@@ -2,6 +2,7 @@
   "work": {
     "jobs": [
       {
+        "id": "move-your-digital",
         "company": "Move Your Digital",
         "role": "Desenvolvedor Fullstack",
         "date": {
@@ -19,6 +20,7 @@
         ]
       },
       {
+        "id": "uaubox",
         "company": "UAUBox",
         "role": "Desenvolvedor Frontend",
         "date": {
@@ -35,6 +37,7 @@
         ]
       },
       {
+        "id": "chronos-technology",
         "company": "Chronos Tecnologia",
         "role": "Desenvolvedor Frontend e Mobile",
         "date": {
@@ -51,6 +54,7 @@
         ]
       },
       {
+        "id": "ras",
         "company": "RAS",
         "role": "Engenheiro de Software",
         "date": {
